@@ -8,3 +8,38 @@ body {
     background-color: #0b525b;
     background: linear-gradient(to right, #d4d3dd, #0b525b);
 }
+
+.poke-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+.pokemon-block {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.img-container {
+    background-image: url("/assets/img/blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-block h2,
+p {
+    text-align: center;
+}
+
+.pokemon-block p {
+    margin: 5px;
+}
