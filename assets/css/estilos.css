@@ -4,9 +4,31 @@
     box-sizing: border-box;
 }
 
+
+/* TIPOGRAFIAS 
+font-family: 'Ceviche One', cursive;
+font-family: 'Gluten', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Russo One', sans-serif;
+*/
+
 body {
     background-color: #0b525b;
     background: linear-gradient(to right, #d4d3dd, #0b525b);
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    color: #ef3c2d;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .poke-container {
