@@ -120,10 +120,28 @@ function progressBar(stats) {
     return statsContainer
 
 }
-//const crearPokemonCard = (pokemon) => {
-//  const pokemonEl = document.createElement('div');
-//pokemonEl.classList.add('pokemon');
-//const pokeInnerHtml = pokemon.name
-//}
+
 fetchPokemons(9)
 fetchPokemon()
+
+//FOOTER
+const footer = document.getElementById("footer");
+const containCopyRight = document.createElement('div')
+containCopyRight.classList.add("contain-copyright");
+
+const textDescription = document.createElement('div')
+textDescription.classList.add("text-description");
+textDescription.innerHTML = ` <i class="far fa-copyright"></i> <span>Pokedex Classic Epic- Todos los derechos reservados</span>`;
+
+const containDev = document.createElement('div')
+containDev.classList.add("contain-dev");
+containDev.innerHTML = ` <i class="fas fa-laptop-code"></i> <span>Developer by <a href="https://github.com/FabioMamani">Fabio Mamani</a> </span>`;
+
+footer.appendChild(containCopyRight)
+containCopyRight.appendChild(textDescription)
+footer.appendChild(containDev)
+    //const crearPokemonCard = (pokemon) => {
+    //  const pokemonEl = document.createElement('div');
+    //pokemonEl.classList.add('pokemon');
+    //const pokeInnerHtml = pokemon.name
+    //}
